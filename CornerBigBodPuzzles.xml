@@ -246,7 +246,7 @@
     </zombieSpawnSchedule>
     <initialRobots>
       <initial-robot originOffsetX="0" originOffsetY="0" type="ARCHON" team="A"/>
-      <initial-robot originOffsetX="0" originOffsetY="99" type="ARCHON" team="A"/>
+      <initial-robot originOffsetX="99" originOffsetY="99" type="ARCHON" team="A"/>
       <initial-robot originOffsetX="6" originOffsetY="78" type="ZOMBIEDEN" team="ZOMBIE"/>
       <initial-robot originOffsetX="6" originOffsetY="79" type="ZOMBIEDEN" team="ZOMBIE"/>
       <initial-robot originOffsetX="7" originOffsetY="78" type="ZOMBIEDEN" team="ZOMBIE"/>
@@ -285,7 +285,7 @@
       <initial-robot originOffsetX="92" originOffsetY="79" type="ZOMBIEDEN" team="ZOMBIE"/>
       <initial-robot originOffsetX="93" originOffsetY="78" type="ZOMBIEDEN" team="ZOMBIE"/>
       <initial-robot originOffsetX="93" originOffsetY="79" type="ZOMBIEDEN" team="ZOMBIE"/>
-      <initial-robot originOffsetX="99" originOffsetY="0" type="ARCHON" team="B"/>
+      <initial-robot originOffsetX="0" originOffsetY="0" type="ARCHON" team="B"/>
       <initial-robot originOffsetX="99" originOffsetY="99" type="ARCHON" team="B"/>
     </initialRobots>
   </game-map>
