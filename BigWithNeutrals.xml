@@ -204,10 +204,58 @@
       <double-array>0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0</double-array>
       <double-array>0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0</double-array>
     </initialParts>
-    <zombieSpawnSchedule/>
+    <zombieSpawnSchedule>
+        <round number="300">
+            <zombie-count type="STANDARDZOMBIE" count="6"/>
+        </round>
+        <round number="600">
+            <zombie-count type="STANDARDZOMBIE" count="8"/>
+            <zombie-count type="RANGEDZOMBIE" count="2"/>
+        </round>
+        <round number="900">
+            <zombie-count type="STANDARDZOMBIE" count="8"/>
+            <zombie-count type="RANGEDZOMBIE" count="4"/>
+        </round>
+        <round number="1200">
+            <zombie-count type="STANDARDZOMBIE" count="12"/>
+            <zombie-count type="RANGEDZOMBIE" count="4"/>
+        </round>
+        <round number="1500">
+            <zombie-count type="STANDARDZOMBIE" count="12"/>
+            <zombie-count type="RANGEDZOMBIE" count="8"/>
+        </round>
+        <round number="1800">
+            <zombie-count type="STANDARDZOMBIE" count="20"/>
+            <zombie-count type="RANGEDZOMBIE" count="8"/>
+        </round>
+        <round number="2100">
+            <zombie-count type="STANDARDZOMBIE" count="20"/>
+            <zombie-count type="RANGEDZOMBIE" count="8"/>
+            <zombie-count type="BIGZOMBIE" count="4"/>
+        </round>
+        <round number="2400">
+            <zombie-count type="STANDARDZOMBIE" count="24"/>
+            <zombie-count type="RANGEDZOMBIE" count="12"/>
+            <zombie-count type="BIGZOMBIE" count="4"/>
+        </round>
+        <round number="2700">
+            <zombie-count type="STANDARDZOMBIE" count="24"/>
+            <zombie-count type="RANGEDZOMBIE" count="16"/>
+            <zombie-count type="BIGZOMBIE" count="4"/>
+        </round>
+    </zombieSpawnSchedule>
     <initialRobots>
       <initial-robot originOffsetX="4" originOffsetY="91" type="ARCHON" team="A"/>
       <initial-robot originOffsetX="8" originOffsetY="82" type="ARCHON" team="A"/>
+      <initial-robot originOffsetX="12" originOffsetY="16" type="ZOMBIEDEN" team="ZOMBIE"/>
+      <initial-robot originOffsetX="12" originOffsetY="17" type="ZOMBIEDEN" team="ZOMBIE"/>
+      <initial-robot originOffsetX="12" originOffsetY="18" type="ZOMBIEDEN" team="ZOMBIE"/>
+      <initial-robot originOffsetX="13" originOffsetY="16" type="ZOMBIEDEN" team="ZOMBIE"/>
+      <initial-robot originOffsetX="13" originOffsetY="17" type="ZOMBIEDEN" team="ZOMBIE"/>
+      <initial-robot originOffsetX="13" originOffsetY="18" type="ZOMBIEDEN" team="ZOMBIE"/>
+      <initial-robot originOffsetX="14" originOffsetY="16" type="ZOMBIEDEN" team="ZOMBIE"/>
+      <initial-robot originOffsetX="14" originOffsetY="17" type="ZOMBIEDEN" team="ZOMBIE"/>
+      <initial-robot originOffsetX="14" originOffsetY="18" type="ZOMBIEDEN" team="ZOMBIE"/>
       <initial-robot originOffsetX="40" originOffsetY="43" type="TURRET" team="NEUTRAL"/>
       <initial-robot originOffsetX="42" originOffsetY="55" type="TURRET" team="NEUTRAL"/>
       <initial-robot originOffsetX="42" originOffsetY="78" type="ARCHON" team="A"/>
@@ -222,6 +270,15 @@
       <initial-robot originOffsetX="57" originOffsetY="21" type="ARCHON" team="B"/>
       <initial-robot originOffsetX="57" originOffsetY="44" type="TURRET" team="NEUTRAL"/>
       <initial-robot originOffsetX="59" originOffsetY="56" type="TURRET" team="NEUTRAL"/>
+      <initial-robot originOffsetX="85" originOffsetY="81" type="ZOMBIEDEN" team="ZOMBIE"/>
+      <initial-robot originOffsetX="85" originOffsetY="82" type="ZOMBIEDEN" team="ZOMBIE"/>
+      <initial-robot originOffsetX="85" originOffsetY="83" type="ZOMBIEDEN" team="ZOMBIE"/>
+      <initial-robot originOffsetX="86" originOffsetY="81" type="ZOMBIEDEN" team="ZOMBIE"/>
+      <initial-robot originOffsetX="86" originOffsetY="82" type="ZOMBIEDEN" team="ZOMBIE"/>
+      <initial-robot originOffsetX="86" originOffsetY="83" type="ZOMBIEDEN" team="ZOMBIE"/>
+      <initial-robot originOffsetX="87" originOffsetY="81" type="ZOMBIEDEN" team="ZOMBIE"/>
+      <initial-robot originOffsetX="87" originOffsetY="82" type="ZOMBIEDEN" team="ZOMBIE"/>
+      <initial-robot originOffsetX="87" originOffsetY="83" type="ZOMBIEDEN" team="ZOMBIE"/>
       <initial-robot originOffsetX="91" originOffsetY="17" type="ARCHON" team="B"/>
       <initial-robot originOffsetX="95" originOffsetY="8" type="ARCHON" team="B"/>
     </initialRobots>
